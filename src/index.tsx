@@ -2,14 +2,15 @@ import './index.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import FlowersBouquet from './components/FlowersBouquet/FlowersBouquet';
+import { UiTemplate } from './components/ui/UiTemplate';
 
 const Index = () => {
   return (
-    <div>
+    <UiTemplate>
       <h1>Florist's shop app</h1>
       <FlowersBouquet />
-    </div>
-    
+    </UiTemplate>
+
   )
 }
 
