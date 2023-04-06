@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomButton from '../CustomButton/CustomButton';
+import CustomButton from '../../../common/elements/components/CustomButton/CustomButton';
 
 type AppProps = { flowers: string[] };
 

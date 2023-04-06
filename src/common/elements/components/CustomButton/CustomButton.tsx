@@ -1,7 +1,7 @@
 import React from "react";
 import { containedButtonStyle, outlinedButtonStyle, textOnlyButtonStyle } from "./styles";
 
-import { colors as CssColors } from '../../theme/colors/colors'
+import { colors as CssColors } from '../../../../theme/colors/colors'
 
 type Colors = 'primary' | 'secondary' | 'warning';
 
