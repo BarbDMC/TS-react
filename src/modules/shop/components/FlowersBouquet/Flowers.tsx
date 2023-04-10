@@ -1,15 +1,12 @@
 import React from 'react'
-import CustomButton from '../../../common/elements/components/CustomButton/CustomButton';
+import CustomButton from '../../../shared/components/CustomButton/CustomButton';
 
 type AppProps = { flowers: string[] };
 
 const Flowers = ({ flowers }: AppProps) => {
 
   const handleClick = () => {
-
     console.log('Handle click');
-
-
   }
 
   return (
@@ -26,6 +23,8 @@ const Flowers = ({ flowers }: AppProps) => {
         title='Soy un Boton'
         handleClick={ handleClick }
         buttonClass='outlined'
+        color='primary'
+        border='1px solid'
       />
     </>
   )

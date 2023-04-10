@@ -1,8 +1,8 @@
 import './index.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import FlowersBouquet from './modules/components/FlowersBouquet/FlowersBouquet';
-import { UiTemplate } from './common/elements/components/ui/UiTemplate';
+import FlowersBouquet from './modules/shop/components/FlowersBouquet/FlowersBouquet';
+import { UiTemplate } from './modules/shared/ui/UiTemplate';
 
 const Index = () => {
   return (
