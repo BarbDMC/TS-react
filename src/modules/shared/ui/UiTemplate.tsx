@@ -1,13 +1,15 @@
-import React, { Children, FC, PropsWithChildren } from 'react'
+import React, { Children, FC, PropsWithChildren } from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 export const UiTemplate: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
-        <nav></nav>
+        <Navbar></Navbar>
         <main>
             { children }
         </main>
-        <footer></footer>
+        <Footer></Footer>
     </>
   )
 }
