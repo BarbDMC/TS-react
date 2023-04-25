@@ -5,11 +5,11 @@ import Footer from './Footer';
 export const UiTemplate: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
-        <Navbar></Navbar>
-        <main>
-            { children }
-        </main>
-        <Footer></Footer>
+      <Navbar />
+      <main>
+        { children }
+      </main>
+      <Footer />
     </>
   )
 }

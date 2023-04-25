@@ -8,9 +8,14 @@
       "dom",
       "esnext"
     ],
+    "baseUrl": "./",
+    "skipLibCheck": true,
     "strict": true,
     "sourceMap": true,
     "target": "esnext",
+    "paths": {
+      "@colors/*":["src/theme/colors/*"]
+    }
   },
   "exclude": [
     "node_modules"
